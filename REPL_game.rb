@@ -1,4 +1,4 @@
-puts "Welcome to the Matrix! My name is Morpheus and I'll be your instructure today"
+puts `say Welcome to the Matrix! My name is Morpheus and I will be your instructor today`
 game_on = true
 while game_on
   puts "You have several choices my friend: take the red pill, take the blue pill, go coding"
