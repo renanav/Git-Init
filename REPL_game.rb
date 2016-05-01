@@ -2,7 +2,8 @@ puts `say Welcome to the Matrix! My name is Morpheus and I will be your instruct
 puts "Welcome to the Matrix! My name is Morpheus and I will be your instructor today"
 game_on = true
 while game_on
-  print `say You have several choices my friend: take the red pill. take the blue pill. go coding`
+  puts `say You have several choices my friend: take the red pill. take the blue pill. go coding`
+  puts "You have several choices my friend: take the red pill. take the blue pill. go coding:"
   choice = gets.chomp
   if choice.include? "blue"
     choice = "take the blue pill"
